@@ -26,34 +26,34 @@ app.get("/", (req,res) => {
 })
 
 app.get("/eazzy-app/download", (req, res) => {
-    // res.redirect("https://github.com/chauhan-nilesh/server/releases/download/v1.0.2/Eazzy.apk");
+    // res.redirect("https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-app/Eazzy.apk");
     res.send(`
         <html>
             <head>
                 <script>
-                    window.location.href = "https://github.com/chauhan-nilesh/server/releases/download/v1.0.2/Eazzy.apk";
+                    window.location.href = "https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-app/Eazzy.apk";
                     setTimeout(() => { window.location.href = "${REDIRECT_URL}"; }, 5000);
                 </script>
             </head>
             <body>
-                <p>Your download is starting... If not, <a href="https://github.com/chauhan-nilesh/server/releases/download/v1.0.2/Eazzy.apk">click here</a>.</p>
+                <p>Your download is starting... If not, <a href="https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-app/Eazzy.apk">click here</a>.</p>
             </body>
         </html>
     `);
 });
 
 app.get("/eazzy-business-app/download", (req, res) => {
-    // res.redirect("https://github.com/chauhan-nilesh/server/releases/download/v1.0.1/Eazzy.Business.apk");
+    // res.redirect("https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-business-app/Eazzy-Business.apk");
     res.send(`
         <html>
             <head>
                 <script>
-                    window.location.href = "https://github.com/chauhan-nilesh/server/releases/download/v1.0.1/Eazzy.Business.apk";
+                    window.location.href = "https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-business-app/Eazzy-Business.apk";
                     setTimeout(() => { window.location.href = "${REDIRECT_URL}"; }, 5000);
                 </script>
             </head>
             <body>
-                <p>Your download is starting... If not, <a href="https://github.com/chauhan-nilesh/server/releases/download/v1.0.1/Eazzy.Business.apk">click here</a>.</p>
+                <p>Your download is starting... If not, <a href="https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-business-app/Eazzy-Business.apk">click here</a>.</p>
             </body>
         </html>
     `);

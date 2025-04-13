@@ -123,7 +123,7 @@ export default function Home() {
               >
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center lg:justify-start">
                   <a
-                    href="https://github.com/chauhan-nilesh/server/releases/download/v1.0.2/Eazzy.apk"
+                    href="https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-app/Eazzy.apk"
                     className="px-8 py-3 text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 md:text-lg shadow-md flex items-center justify-center gap-2 transition duration-150"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" className="lg:h-14 lg:w-14 h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -132,7 +132,7 @@ export default function Home() {
                     Download Eazzy Customer App
                   </a>
                   <a
-                    href="https://github.com/chauhan-nilesh/server/releases/download/v1.0.1/Eazzy.Business.apk"
+                    href="https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-business-app/Eazzy-Business.apk"
                     className="px-8 py-3 text-base font-medium rounded-lg text-blue-700 bg-blue-100 hover:bg-blue-200 md:text-lg shadow-sm flex items-center justify-center gap-2 transition duration-150"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" className="lg:h-14 lg:w-14 h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -335,7 +335,7 @@ export default function Home() {
                 Browse local stores, order products, and get them delivered right to your doorstep &ndash; all from one easy-to-use app.
               </p>
               <a
-                href="https://github.com/chauhan-nilesh/server/releases/download/v1.0.2/Eazzy.apk"
+                href="https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-app/Eazzy.apk"
                 className="inline-flex items-center px-4 py-2 text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-md"
               >
                 Download Customer App
@@ -404,7 +404,7 @@ export default function Home() {
                 Create and manage your online store, process orders, and grow your business with powerful yet simple tools.
               </p>
               <a
-                href="https://github.com/chauhan-nilesh/server/releases/download/v1.0.1/Eazzy.Business.apk"
+                href="https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-business-app/Eazzy-Business.apk"
                 className="inline-flex items-center px-4 py-2 text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-md"
               >
                 Download Business App
@@ -598,7 +598,7 @@ export default function Home() {
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <div>
-                  <a href="https://github.com/chauhan-nilesh/server/releases/download/v1.0.2/Eazzy.apk" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 shadow-lg transition duration-150">
+                  <a href="https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-app/Eazzy.apk" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 shadow-lg transition duration-150">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                     </svg>
@@ -607,7 +607,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <a href="https://github.com/chauhan-nilesh/server/releases/download/v1.0.1/Eazzy.Business.apk" className="inline-flex items-center justify-center px-5 py-3 border border-white text-base font-medium rounded-md text-white hover:bg-blue-700 transition duration-150">
+                  <a href="https://github.com/nilesh-developer/eazzy-app/releases/download/eazzy-business-app/Eazzy-Business.apk" className="inline-flex items-center justify-center px-5 py-3 border border-white text-base font-medium rounded-md text-white hover:bg-blue-700 transition duration-150">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
