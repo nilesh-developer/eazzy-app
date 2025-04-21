@@ -46,11 +46,11 @@ export default function Home() {
                 <a href="#faq" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-150">FAQ</a>
                 <a href="#contact" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-150">Contact</a>
               </div>
-              <div className="lg:flex items-center hidden">
+              {/* <div className="lg:flex items-center hidden">
                 <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium shadow-md transition duration-150">
                   Get Started
                 </button>
-              </div>
+              </div> */}
 
               {/* Mobile Menu Toggle */}
               <div className="flex items-center md:hidden">
@@ -718,7 +718,25 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12">
+      <footer className="px-4 divide-y bg-slate-900 text-gray-100">
+            <div className='flex justify-center items-center p-8'>
+                <div>
+                    <div className='flex justify-center items-center'>
+                    <img className='h-20' src="/logo.png" alt="logo" />
+                    </div>
+                    <div className='mt-10'>
+                        {/* <Link to="about-us"><p className='text-center text-xl font-bold'>About Us</p></Link> */}
+                        <a href="#home"><p className='text-center text-xl font-bold mt-2'>Home</p></a>
+                        <a href="#features"><p className='text-center text-xl font-bold mt-2'>Features</p></a>
+                        <a href="#faq"><p className='text-center text-xl font-bold mt-2'>FAQ</p></a>
+                        <a href="#contact"><p className='text-center text-xl font-bold mt-2'>Contact Us</p></a>
+                    </div>
+                </div>
+            </div>
+            <div className="py-6 text-sm text-center text-gray-200">©2025 Eazzy. All rights reserved.</div>
+        </footer>
+
+      {/* <footer className="bg-gray-900 text-gray-300 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
@@ -782,7 +800,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
 
       {/* Add animation style */}
       <style jsx>{`
